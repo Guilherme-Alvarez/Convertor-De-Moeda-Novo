@@ -30,7 +30,7 @@ const buttonClick = () =>{
         }).format(value / euro)
     }
 
-    if (currencyAll.value === 'BTC Biticoin') {
+    if (currencyAll.value === 'BTC Bitcoin') {
         valueFinal.innerHTML = new Intl.NumberFormat('en-US', {
             style: 'currency',
             currency: 'BTC',
@@ -56,8 +56,8 @@ const change = () =>{
         flag.src = './assets/estados-unidos (1) 1.png'
     }
 
-    if(currencyAll.value === 'BTC Biticoin'){
-        nameMoeda.innerHTML = 'BTC Biticoin'
+    if(currencyAll.value === 'BTC Bitcoin'){
+        nameMoeda.innerHTML = 'BTC Bitcoin'
         flag.src = './assets/bitcoin 1.png'
     }
 
