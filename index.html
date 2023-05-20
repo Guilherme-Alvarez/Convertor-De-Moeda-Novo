@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./assets/bitcoin 1.png" />
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor De Moeda</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="my-box-log">
+            <img id="my-log" src="./assets/logo.gif" alt="imagem-de-dinheiro">
+        </header>
+
+        <div class="big-box">
+            <section class="box-one">
+
+                <label >
+                    Converter <b>de</b>
+                    <select class="input-select">
+                        <option>R$ Real Brasileiro</option>
+                    </select>
+                </label>
+
+                <label>
+                    Converter <b>para</b>
+                    <select class="input-select" id="select-moeda">
+                        <option>US$ Dólar Americano</option>
+                        <option>BTC Biticoin</option>
+                        <option>£ Libra</option>
+                        <option>€ Euro</option>
+                    </select>
+                </label>
+
+                <label>
+                    Valor
+                    <input class="input-select" id="input-value" placeholder="R$ 2000">
+                </label>
+
+                <button class="botao">Converter</button>
+
+            </section>
+
+            <main class="box-two">
+                <div class="img-real">
+                    <img src="./assets/brasil 2.png" alt="bandeira-brasil">
+                    <p>Real</p>
+                    <p id="real-value">R$ 2000</p>
+                </div>
+
+                <img src="./assets/Seta.png" alt="seta-para-baixo">
+
+                <div class="img-moedas">
+                    <img id="flag" src="./assets/estados-unidos (1) 1.png" alt="bandeira-estados-unidos">
+                    <p id="name-moeda">US$ Dólar Americano</p>
+                    <p id="value-final">10000</p>
+                </div>
+            </main>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="script.js"></script>
+</html>
